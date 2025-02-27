@@ -9,7 +9,7 @@ count = 0
 
 while True:
     # увеличивамем счетчик и делаем подсказки игроку
-    count+=1
+    count += 1
     predict_number = int(input("Угадай число от 1 до 100: "))
     
     if predict_number > number:
@@ -19,5 +19,5 @@ while True:
         print("Число должно быть больше!")
     
     else:
-        print(f"Вы угадали число! Это число = {number}, за {count} попыток")
+        print(f"Вы угадали число! Это число ={number}, за {count} попыток")
         break #конец игры выход из цикла

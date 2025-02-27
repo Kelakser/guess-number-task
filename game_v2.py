@@ -27,8 +27,8 @@ def random_predict(number: int = 1) -> int:
             # логика выполнения кода, находить максимум и минимум до которого можно загадать
             max_value = 101
             min_value = 1
+            
             while predict_number != number:
-                
                 # нахождения максимума
                 if predict_number > number:
                     max_value = predict_number
@@ -41,6 +41,7 @@ def random_predict(number: int = 1) -> int:
                 
                 # учитываем итерацию    
                 count += 1
+                
             break
     return count
 
